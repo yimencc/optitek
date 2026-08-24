@@ -1,0 +1,22 @@
+[optitek]
+- io
+    - load_tif
+    - dump_tif
+    - load_png
+    - dump_png
+    - ...
+    - _load_core
+    - _dump_core
+
+- core
+    - ft2
+    - ift2
+    - log_mag
+    - fft_map
+    - make_xy_grid
+    - make_freq_grid
+
+- imaging
+    - space_filtering
+    - angular_propagation
+    - ...

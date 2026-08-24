@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optitek"
+version = "0.1.0"
+description = "Basic toolkit for optics research"
+readme = "README.md"
+license = {text = "MIT"}  # 请根据你的 LICENSE 文件修改
+authors = [
+    {name = "Chen Chao", email = "chenchaobg@163.com"},
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
