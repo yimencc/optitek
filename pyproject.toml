@@ -16,5 +16,6 @@ dependencies = [
     "numpy",
 ]
 
-[tool.setuptools.packages.find]
-where = ["."]
+[tool.setuptools]
+# 显式指定要包含的包
+packages = ["optitek"]
